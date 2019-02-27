@@ -28,7 +28,7 @@ class App extends Component {
     console.log("rendering App", this.state.friends);
 
     return (
-      <div>
+      <div className="App">
         <h1>Friends App</h1>
         <Route
           exact
